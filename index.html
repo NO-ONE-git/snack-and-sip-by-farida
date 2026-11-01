@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Snack and Sip by Farida | Mini Shawarma, Natural Drinks, Snacks &amp; Cakes</title>
+<meta name="description" content="Freshly made, tasty treats just for you. Order mini shawarma, natural drinks, small chops, donuts and cakes from Snack and Sip by Farida on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=DM+Sans:wght@400;500;700&family=Pacifico&display=swap">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#fbf3e6;--card:#fffaf2;--ink:#3b1d10;--mute:#7a5a48;--line:#ecd8bd;--choc:#4a2312;--gold:#f6b21b;--kick:#9a5b00;--bar:rgba(251,243,230,.92);color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1a0e08;--card:#27150d;--ink:#f7ebd9;--mute:#cdb59d;--line:#4a2d1e;--kick:#f6b21b;--bar:rgba(26,14,8,.92);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1a0e08;--card:#27150d;--ink:#f7ebd9;--mute:#cdb59d;--line:#4a2d1e;--kick:#f6b21b;--bar:rgba(26,14,8,.92);color-scheme:dark}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 72px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.6 "DM Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bar);backdrop-filter:blur(10px)}
+a{color:inherit}
+.wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bar);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:64px}
+.logo{font:1.3rem/1 Pacifico,cursive;text-decoration:none}
+.logo i{color:var(--gold);font-style:normal}
+nav{display:none;gap:1.8rem}
+nav a{text-decoration:none;font-weight:500;color:var(--mute)}
+nav a:hover{color:var(--ink)}
+@media(min-width:760px){nav{display:flex}}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:.9rem 1.7rem;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid transparent}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.gold{background:var(--gold);color:#3b1d10;box-shadow:0 10px 22px -10px rgba(246,178,27,.95)}
+.gold:hover{background:#ffc43d}
+.ghost{border-color:var(--ink)}
+.ghost:hover{background:var(--ink);color:var(--bg)}
+.lite{border-color:rgba(251,243,230,.6);color:#fbf3e6}
+.lite:hover{background:#fbf3e6;color:#3b1d10}
+.sm{padding:.55rem 1.15rem;font-size:.92rem}
+.hero{padding:3rem 0 4.5rem;background:radial-gradient(60% 70% at 100% 0,rgba(246,178,27,.4),transparent 62%),radial-gradient(50% 60% at 0 100%,rgba(122,61,31,.16),transparent 60%)}
+.hero-in{display:grid;gap:2.5rem;align-items:center}
+@media(min-width:860px){.hero-in{grid-template-columns:1.15fr .85fr}}
+h1{margin:0;display:flex;flex-direction:column;align-items:flex-start;gap:.7rem;font-weight:400}
+.script{font:clamp(3.1rem,12vw,5.8rem)/1.05 Pacifico,cursive}
+.script em{color:var(--gold);font-style:normal}
+.by{background:var(--choc);color:#fbf3e6;font:1.5rem/1 Pacifico,cursive;padding:.75rem 1.7rem;border-radius:14px 44px 14px 44px;transform:rotate(-2deg)}
+.lead{font-size:1.15rem;color:var(--mute);max-width:33rem;margin:1.6rem 0 1.8rem}
+.cta{display:flex;flex-wrap:wrap;gap:.9rem}
+.chips{list-style:none;display:flex;flex-wrap:wrap;gap:.6rem;padding:0;margin:2rem 0 0}
+.chips li{font-size:.9rem;font-weight:500;padding:.4rem .9rem;border-radius:999px;background:var(--card);border:1px solid var(--line)}
+.chips li::before{content:"✓ ";color:var(--kick);font-weight:700}
+.art{position:relative;display:grid;place-items:center;min-height:340px}
+.plate{width:min(76vw,350px);aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#7a3d1f,var(--choc) 70%);box-shadow:0 0 0 12px rgba(246,178,27,.4),0 34px 60px -26px rgba(74,35,18,.8)}
+.plate span{font-size:clamp(6rem,26vw,9.5rem);line-height:1;filter:drop-shadow(0 14px 14px rgba(0,0,0,.35))}
+.tag{position:absolute;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:.5rem .9rem;font-size:.9rem;box-shadow:0 14px 24px -16px rgba(74,35,18,.6)}
+.t1{top:4%;left:0;transform:rotate(-5deg)}
+.t2{right:0;top:40%;transform:rotate(4deg)}
+.t3{bottom:2%;left:4%;transform:rotate(-2deg);font:600 1.3rem/1.2 Caveat,cursive}
+.sec{padding:4.5rem 0}
+h2{font:700 clamp(1.9rem,5vw,2.8rem)/1.15 "DM Sans",sans-serif;letter-spacing:-.02em;margin:0 0 .6rem}
+.sub{color:var(--mute);margin:0 0 1.2rem;max-width:36rem}
+.grid4{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:2rem}
+.feat{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:1.5rem}
+.ico{width:56px;height:56px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(246,178,27,.3);font-size:1.6rem;margin-bottom:1rem}
+.feat h3{margin:0 0 .3rem;font-size:1.1rem}
+.feat p{margin:0;color:var(--mute);font-size:.95rem}
+.cards{display:grid;gap:1.25rem;margin-top:2rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:26px;padding:1.6rem;box-shadow:0 20px 36px -28px rgba(74,35,18,.55)}
+.wide{grid-column:1/-1;border-radius:34px 34px 34px 80px}
+.cake{border-radius:26px 80px 26px 26px}
+.ch{display:flex;align-items:center;gap:.9rem;margin-bottom:.5rem}
+.ch .ico{margin:0;background:var(--choc)}
+.card h3{margin:0;font:1.55rem/1.15 Pacifico,cursive}
+.cols{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+h4{display:inline-block;margin:0 0 .3rem;padding:.3rem 1.05rem;border-radius:999px;background:var(--choc);color:#fbf3e6;font-size:.95rem}
+.rows{list-style:none;margin:0;padding:0}
+.rows li{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.65rem 0;border-bottom:1px dashed var(--line)}
+.rows li:last-child{border:0}
+.pr{display:flex;flex-direction:column;align-items:flex-end;line-height:1.2}
+.pr b{font-size:1.08rem}
+.pr small{color:var(--mute);font-size:.76rem}
+.combo{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-top:1.2rem;padding:1rem 1.3rem;border-radius:18px 18px 18px 40px;background:var(--choc);color:#fbf3e6}
+.combo small{color:#e8d3b8}
+.more{margin-top:auto;padding-top:1.2rem;font-weight:700;color:var(--kick)}
+.note{margin:1.6rem 0 0;font-size:.85rem;color:var(--mute)}
+.order{position:relative;overflow:hidden;background:var(--choc);color:#fbf3e6}
+.order::before{content:"";position:absolute;right:-130px;top:-130px;width:380px;height:380px;border-radius:50%;background:rgba(246,178,27,.16)}
+.order .wrap{position:relative}
+.order .sub{color:#e3cdb2}
+.steps{display:grid;gap:1rem;margin:2rem 0;padding:0;list-style:none;counter-reset:s;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.steps li{counter-increment:s;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:20px;padding:1.2rem 1.3rem}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--gold);color:#3b1d10;font-weight:700;margin-bottom:.6rem}
+.steps b{display:block}
+.steps span{color:#e3cdb2;font-size:.95rem}
+.num{font:700 clamp(1.9rem,7vw,2.8rem)/1.1 "DM Sans",sans-serif;letter-spacing:.01em;margin:0 0 1.2rem}
+.hand{font:600 1.6rem/1.2 Caveat,cursive;color:var(--gold);margin:1.6rem 0 0}
+footer{background:#2a1209;color:#d9c3a8;padding:2.2rem 0;font-size:.92rem}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem}
+footer .logo{color:#fbf3e6}
+footer p{margin:0}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap bar">
+<a class="logo" href="#top" aria-label="Snack and Sip by Farida, back to top">Snack <i>and</i> Sip</a>
+<nav aria-label="Main"><a href="#menu">Menu</a><a href="#why">Why us</a><a href="#order">How to order</a></nav>
+<a class="btn gold sm" href="https://wa.me/2348163636688?text=Hello%20Farida%2C%20I%20would%20like%20to%20place%20an%20order%20from%20Snack%20and%20Sip.">Order now</a>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap hero-in">
+<div>
+<h1><span class="script">Snack <em>and</em> Sip</span><span class="by">by Farida</span></h1>
+<p class="lead">Freshly made, tasty treats just for you. Mini shawarma, natural drinks, small chops, donuts and cakes for your special moments.</p>
+<div class="cta"><a class="btn gold" href="https://wa.me/2348163636688?text=Hello%20Farida%2C%20I%20would%20like%20to%20place%20an%20order%20from%20Snack%20and%20Sip.">Order on WhatsApp</a><a class="btn ghost" href="#menu">See the menu</a></div>
+<ul class="chips"><li>Fresh ingredients</li><li>Affordable prices</li><li>Made with love</li></ul>
+</div>
+<div class="art" aria-hidden="true"><div class="plate"><span>🌯</span></div><b class="tag t1">🥥 Coconut milk</b><b class="tag t2">🍩 Donuts</b><span class="tag t3">Good food ♥ Good vibes!</span></div>
+</div></section>
+
+<section class="sec" id="why"><div class="wrap">
+<h2>Small bites, big happiness</h2>
+<p class="sub">What you get with every order from Snack and Sip.</p>
+<div class="grid4">
+<div class="feat"><div class="ico" aria-hidden="true">🌿</div><h3>Fresh ingredients</h3><p>Crisp veggies and well-seasoned meat in every wrap.</p></div>
+<div class="feat"><div class="ico" aria-hidden="true">💛</div><h3>Quality and taste</h3><p>Tasty treats, freshly made and worth sharing.</p></div>
+<div class="feat"><div class="ico" aria-hidden="true">🥤</div><h3>Refreshing drinks</h3><p>Healthy natural drinks, made with love.</p></div>
+<div class="feat"><div class="ico" aria-hidden="true">😊</div><h3>Affordable prices</h3><p>Good food and good vibes at friendly prices.</p></div>
+</div>
+</div></section>
+
+<section class="sec" id="menu" style="padding-top:1rem"><div class="wrap">
+<h2>The menu</h2>
+<p class="sub">Pick your favourites, then message us on WhatsApp to order.</p>
+<div class="cards">
+
+<article class="card wide">
+<div class="ch"><span class="ico" aria-hidden="true">🌯</span><h3>Mini Shawarma</h3></div>
+<p class="sub">Soft tortilla wraps, well-seasoned meat, fresh veggies and our special sauce.</p>
+<div class="cols">
+<div><h4>Chicken</h4><ul class="rows">
+<li><span>1 piece</span><span class="pr"><b data-ngn="1500">₦1,500</b></span></li>
+<li><span>2 pieces</span><span class="pr"><b data-ngn="2800">₦2,800</b></span></li>
+<li><span>3 pieces</span><span class="pr"><b data-ngn="4000">₦4,000</b></span></li></ul></div>
+<div><h4>Beef</h4><ul class="rows">
+<li><span>1 piece</span><span class="pr"><b data-ngn="1700">₦1,700</b></span></li>
+<li><span>2 pieces</span><span class="pr"><b data-ngn="3200">₦3,200</b></span></li>
+<li><span>3 pieces</span><span class="pr"><b data-ngn="4500">₦4,500</b></span></li></ul></div>
+</div>
+<div class="combo"><div><strong>Mixed combo</strong><br>1 chicken + 1 beef</div><span class="pr"><b data-ngn="3000">₦3,000</b></span></div>
+<a class="more" href="https://wa.me/2348163636688?text=Hello%20Farida%2C%20I%20would%20like%20to%20order%20mini%20shawarma.">Order mini shawarma on WhatsApp</a>
+</article>
+
+<article class="card">
+<div class="ch"><span class="ico" aria-hidden="true">🥥</span><h3>Natural Drinks</h3></div>
+<p class="sub">Refreshing, healthy and made with love.</p>
+<ul class="rows">
+<li><span>Coconut milk</span><span class="pr"><b data-ngn="1500">₦1,500</b></span></li>
+<li><span>Yogo fura</span><span class="pr"><b data-ngn="1500">₦1,500</b></span></li>
+<li><span>Yogo fruit</span><span class="pr"><b data-ngn="2500">₦2,500</b></span></li></ul>
+<a class="more" href="https://wa.me/2348163636688?text=Hello%20Farida%2C%20I%20would%20like%20to%20order%20natural%20drinks.">Order drinks on WhatsApp</a>
+</article>
+
+<article class="card">
+<div class="ch"><span class="ico" aria-hidden="true">🍩</span><h3>Snacks</h3></div>
+<p class="sub">Small bites, big satisfaction.</p>
+<ul class="rows">
+<li><span>Donuts</span><span class="pr"><b data-ngn="1000">₦1,000</b></span></li>
+<li><span>Small chops</span><span class="pr"><b data-ngn="1000">₦1,000</b></span></li>
+<li><span>Other tasty snacks</span><span class="pr"><b data-ngn="800" data-plus>₦800+</b></span></li></ul>
+<a class="more" href="https://wa.me/2348163636688?text=Hello%20Farida%2C%20I%20would%20like%20to%20order%20snacks.">Order snacks on WhatsApp</a>
+</article>
+
+<article class="card cake">
+<div class="ch"><span class="ico" aria-hidden="true">🎂</span><h3>Cakes</h3></div>
+<p class="sub">For your special moments. Message us with what you have in mind and we will take your cake order.</p>
+<a class="more" href="https://wa.me/2348163636688?text=Hello%20Farida%2C%20I%20would%20like%20to%20order%20a%20cake.">Order a cake on WhatsApp</a>
+</article>
+
+</div>
+<p class="note">Prices are in naira (₦). Dollar amounts are approximate, at about ₦<span id="r">1,365</span> to $1.</p>
+</div></section>
+
+<section class="sec order" id="order"><div class="wrap">
+<h2>How to order</h2>
+<p class="sub">Three easy steps and your treats are on the way.</p>
+<ol class="steps">
+<li><b>Pick your treats</b><span>Choose from the menu above.</span></li>
+<li><b>Message us on WhatsApp</b><span>Tap the button and send your order.</span></li>
+<li><b>Enjoy it fresh</b><span>Your order is made fresh for you.</span></li>
+</ol>
+<p class="num">0816 363 6688</p>
+<div class="cta"><a class="btn gold" href="https://wa.me/2348163636688?text=Hello%20Farida%2C%20I%20would%20like%20to%20place%20an%20order%20from%20Snack%20and%20Sip.">Chat on WhatsApp</a><a class="btn lite" href="tel:+2348163636688">Call us</a></div>
+<p class="hand">Tell a friend to tell a friend ♥</p>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<a class="logo" href="#top">Snack <i>and</i> Sip</a>
+<p>Good food ♥ Good vibes! &nbsp;|&nbsp; © 2026 Snack and Sip by Farida</p>
+</div></footer>
+
+<script>
+const RATE=1365;
+document.querySelectorAll('[data-ngn]').forEach(function(b){
+  var s=document.createElement('small');
+  s.textContent='≈ $'+(b.dataset.ngn/RATE).toFixed(2)+(b.hasAttribute('data-plus')?'+':'');
+  b.after(s);
+});
+</script>
+</body>
+</html>
